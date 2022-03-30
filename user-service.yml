@@ -5,3 +5,6 @@ spring:
       driver-class-name: org.h2.Driver
       username: sa
       password: '{cipher}a07d1a8b25c81340ca4137e80e1e7e1d0e43aa78b92124490a3d88ff0dbb0579'
+
+user_service:
+  url: http://localhost:8000/order-service/%s/orders
